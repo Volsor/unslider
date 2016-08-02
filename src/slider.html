@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+        <link href="css/unslider.css" rel="stylesheet">
+       <link href="css/unslider-dots.css" rel="stylesheet">
+</head>
+<body style="background-color:lightblue;">
+<div class="my-slider">
+    <ul>
+        <li>My slide</li>
+        <li>Another slide</li>
+        <li>My last slide</li>
+    </ul>
+</div>
+<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="js/unslider.js"></script> <!-- but with the right path! -->
+<script>
+    $(function($) {
+        $('.my-slider').unslider();
+    });
+</script>
+</body>
+</html>
